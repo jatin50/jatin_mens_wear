@@ -1,0 +1,153 @@
+body {
+    font-family:  italic,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f8268;
+    color: white;
+    padding: 10px;
+    padding-left: 375px;
+}
+
+.logo {
+    font-size: 46px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #1F4529;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 135px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+.head{
+    border: 4px solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:hwb(161 18% 51%);
+    color: white;
+    
+    
+    
+}
+
+
+
+
+.image-box {
+    display:flex;
+    grid-template-columns: repeat(auto fill, minmax(200px, 1fr));
+    gap: 35px;
+    margin: 20px 0;
+    
+}
+
+.image-item {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.image-item img {
+    width: auto;
+    height: auto;
+}
+
+.image-item p {
+    padding: 10px;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.image-item:hover {
+    transform: scale(1.05);
+}
+/* .image-item2 {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.image-item2 img {
+    width: 100%;
+    height: 100%;
+} */
+body {
+    background-image: url('photos/front4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat-y; 
+    color: rgb(25, 3, 3); 
+    font-family: italic,Arial, sans-serif; 
+    height: 100vh; 
+    margin: 0; 
+} 
+
+.home-icon {
+    position: absolute; /* Position it absolutely */
+    top: 20px; /* Distance from the top */
+    right: 190px; /* Distance from the right */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+.home-icon img {
+    width: 30px; /* Set the width of the icon */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.logo-container {
+    position: absolute; /* Allows positioning relative to the nearest positioned ancestor */
+    top: 10px; /* Adjust as needed */
+    left: 30px; /* Adjust as needed */
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.logo2 {
+    width: 50px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.content {
+    padding: 10px; /* Space around your content */
+}
+
